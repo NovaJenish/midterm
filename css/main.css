@@ -1,0 +1,76 @@
+body {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border: 2px solid black;
+    font: normal 1em/1.5 Arial, sans-serif;
+}
+
+.structural {
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    color: #ffff00;
+    font-size: 2em;
+}
+
+h2 {
+    color: rgb(255, 165, 0);
+    font-size: 1.5em;
+}
+
+main {
+    height: 70vh;
+}
+
+img {
+    border: 1px solid #ffff00;
+    width: 90%;
+    height: 80%;
+}
+
+figure {
+    background-color: hsl(0, 100%, 50%);
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+#figure1 {
+    float: left;
+}
+
+#figure2 {
+    float: right;
+}
+
+section {
+    clear: both;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: yellow;
+    padding: 5px;
+}
+
+a {
+    color: #f00;
+}
+
+a:hover {
+    color: #00f;
+}
+
+ul {
+    list-style-type: circle;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #ff0000;
+}
